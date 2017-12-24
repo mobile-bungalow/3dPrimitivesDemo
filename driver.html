@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Program 3</title>
+    <script src="./lib/ioSOR.js"></script>
+    <script src="./lib/cuon-matrix.js"></script>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <script type="text/javascript" src='./main.js'></script>
+  </head>
+  <body onload="main();">
+    
+    </style>
+
+  <canvas id = 'canvas' height = 500 width = 500 style="border:1px solid #000000;">
+  	please use a browser that supports html5 canvas
+    <p>test</p>
+  </canvas><br>
+   <button id = 'spec' onclick="specular();" type="button">Specular Off</button>
+   <button id = 'smoothe' onclick="smoothe();" type="button">Smooth Off</button>
+   <div id="sloder">
+   <input type="range" min="1" max="20" value="10" class="slider" id="slider">
+  <p> shininess </p>
+ </div>
+  </body>
+</html>
